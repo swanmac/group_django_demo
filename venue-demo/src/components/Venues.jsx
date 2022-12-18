@@ -25,7 +25,7 @@ export default function Venues () {
                 return (
                     <div key={value.id}>
                         <h3>Venue Name: {value.venueName}</h3>
-                        <h4>Event Name: {value.eventName}</h4>
+                        {/* <h4>Event Name: {value.eventName}</h4> */}
                         <p>Address: {value.venueAddress}</p>
                         <p>Parking: {value.venueParking}</p>
                         <p>Capacity: {value.venueCapacity}</p>
