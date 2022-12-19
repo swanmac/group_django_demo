@@ -24,11 +24,12 @@ export default function Venues () {
             {venues.map((value) => {
                 return (
                     <div key={value.id}>
-                        <h3>Venue Name: {value.venueName}</h3>
-                        {/* <h4>Event Name: {value.eventName}</h4> */}
-                        <p>Address: {value.venueAddress}</p>
-                        <p>Parking: {value.venueParking}</p>
-                        <p>Capacity: {value.venueCapacity}</p>
+                        <h3>Venue Name: {value.name}</h3>
+                        <p>Address: {value.address}</p>
+                        <p>Description: {value.description}</p>
+                        <p>Onsite Parking: {value.onsite_parking}</p>
+                        <p>Capacity: {value.capacity}</p>
+                        <p>Photo: {value.photo_url}</p>
                         <br />
                     </div> 
                 )

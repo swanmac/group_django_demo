@@ -24,10 +24,14 @@ export default function Events () {
             {events.map((value) => {
                 return (
                     <div key={value.id}>
-                        <h3>Event Name: {value.eventName}</h3>
-                        <h3>Event Type: {value.eventType}</h3>
-                        <p>Description: {value.eventDescription}</p>
-                        <p>Date of Event: {value.eventDate}</p>
+                        <h3>Venue: {value.venue}</h3>
+                        <h3>Event Name: {value.name}</h3>
+                        <h3>Event Type: {value.type}</h3>
+                        <p>Event Description: {value.description}</p>
+                        <p>ASL Interpreter: {value.asl_interpreter}</p>
+                        <p>Date of Event: {value.date}</p>
+                        <p>Alcohol Servered: {value.alcohol_served}</p>
+                        <p>Photo: {value.photo_url}</p>
                         <br />
                     </div> 
                 )
